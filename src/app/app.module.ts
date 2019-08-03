@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 // Rutas
 // import { AppRoutingModule } from './app-routing.module';
+// IMPORTACION DE NUEVOS
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +14,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './paginas/portafolio/portafolio.component';
 import { AboutComponent } from './paginas/about/about.component';
 import { ItemComponent } from './paginas/item/item.component';
+import { HttpClient } from 'selenium-webdriver/http';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,8 @@ import { ItemComponent } from './paginas/item/item.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
