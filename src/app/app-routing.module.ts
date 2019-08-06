@@ -9,7 +9,7 @@ import { ItemComponent } from './paginas/item/item.component';
 const rutas: Routes =[
   {path: 'inicio', component: PortafolioComponent },
   {path: 'about', component: AboutComponent },
-  {path: 'item', component: ItemComponent },
+  {path: 'item/:idProducto', component: ItemComponent },
   {path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 
 ];

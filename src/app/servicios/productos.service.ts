@@ -25,6 +25,13 @@ export class ProductosService {
 
    }
 
+   getProducto( id: string ) {
+       return   this.http.get(`https://darwinapp-106f8.firebaseio.com/productos/${id}.json`)
+
+
+
+   }
+
 
 }
 
