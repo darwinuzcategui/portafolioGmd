@@ -16,6 +16,7 @@ import { AboutComponent } from './paginas/about/about.component';
 import { ItemComponent } from './paginas/item/item.component';
 import { HttpClient } from 'selenium-webdriver/http';
 import { from } from 'rxjs';
+import { BuscarComponent } from './paginas/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { from } from 'rxjs';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
