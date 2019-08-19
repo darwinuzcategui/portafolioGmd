@@ -1,4 +1,15 @@
+# Proyecto Gmd con Victor
+aqui colocar todos los datos de la siguiente manera ** italica  **
+
+## negrita con 
+` // con esto colocamos para los codigo un fuente ng serve` 
+
+# estuadia makdow
+
+
+
 # PortafiloGmd
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
